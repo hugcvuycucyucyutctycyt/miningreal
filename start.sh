@@ -6,4 +6,4 @@ WORKER=$(hostname)
 
 cd /app
 
-./t-rex -a kawpow -o $POOL -u $WALLET.$WORKER -p x --api-bind-http 0.0.0.0:4067
+./t-rex -a kawpow -o $POOL -u $WALLET.$WORKER -p x --api-bind-http 0.0.0.0:8000
